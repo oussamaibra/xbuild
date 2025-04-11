@@ -33,7 +33,7 @@ export default function About() {
               <div className="col-lg-6">
                 <div className="about-image">
                   <Image
-                    src="/assets/img/about/01.jpg"
+                    src="/assets/img/hero/aae91f73-cfcf-409f-884b-d4a01e6fdd8f.jpg"
                     alt="img"
                     width={485}
                     height={592}

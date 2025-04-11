@@ -40,10 +40,10 @@ export default function Hero() {
     },
   };
   const images = [
-    "/assets/img/hero/01.jpg",
-    "/assets/img/hero/02.jpg",
-    "/assets/img/hero/01.jpg",
-    "/assets/img/hero/02.jpg",
+    "/assets/img/hero/781ac09a-7cbf-4726-89da-9d63f7a5af7e.JPG",
+    "/assets/img/hero/ec876467-ab01-4d58-980a-887bb2ff4b3d.JPG",
+    "/assets/img/hero/99157b27-2f03-4a6a-b5f4-32385bb26686.JPG",
+    "/assets/img/hero/c6664e30-7597-4b2a-8318-c4b355817cb2.JPG",
     // Add more image paths as needed
   ];
   return (
