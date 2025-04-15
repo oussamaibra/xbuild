@@ -1,8 +1,11 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import { services2 } from "@/data/services";
+import { services2, services3test } from "@/data/services";
 export default function ServiceDetails({ serviceItem }) {
+  if (!serviceItem) {
+    return <div>Loading service details...</div>;
+  }
   return (
     <section className="service-details-section section-padding">
       <div className="container">
@@ -11,7 +14,7 @@ export default function ServiceDetails({ serviceItem }) {
             <div className="col-12 col-lg-8">
               <div className="service-details-image">
                 <Image
-                  src="/assets/img/service/details-1.jpg"
+                  src={serviceItem.imgSrc}
                   width={740}
                   height={336}
                   alt="img"
@@ -20,25 +23,20 @@ export default function ServiceDetails({ serviceItem }) {
               <div className="service-details-content">
                 <h2>{serviceItem.title}</h2>
                 <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don't look
-                  even slightly believable. If you are going to use a passage of
-                  Lorem Ipsum, you need to be sure there isn't anything
-                  embarrassing hidden in the middle of text.
+                 {serviceItem.description_detail}
                 </p>
-                <p className="mt-4 mb-4">
+                {/* <p className="mt-4 mb-4">
                   There are many variations of passages of Lorem Ipsum
                   available, but the majority have suffered alteration in some
                   form, by injected humour, or randomised words which don't look
                   even slightly believable. If you are going to use a passage of
                   Lorem Ipsum,
-                </p>
+                </p> */}
                 <div className="row g-4">
                   <div className="col-lg-7">
                     <div className="service-details-image">
                       <Image
-                        src="/assets/img/service/details-2.jpg"
+                        src={serviceItem.imgSrc}
                         width={413}
                         height={265}
                         alt="img"
@@ -49,26 +47,25 @@ export default function ServiceDetails({ serviceItem }) {
                     <div className="content">
                       <h3>Services Benefits:</h3>
                       <p className="mt-2 mb-2">
-                        There are many Xbuild h variations of passages of Lorem
-                        Ipsum available,
+                      {serviceItem.description_detail}
                       </p>
-                      <p>
+                      {/* <p>
                         Xbuild h variations of be passages of Lorem Ipsum
                         available,
-                      </p>
+                      </p> */}
                     </div>
                     <ul className="details-list">
                       <li>
                         <i className="fa-solid fa-circle-check" />
-                        We use the latest diagnostic equipment
+                        Une technologie de pointe au service de vos projets de forage
                       </li>
                       <li>
                         <i className="fa-solid fa-circle-check" />
-                        Automotive service our clients receive
+                        Parce que la précision est essentielle
                       </li>
                       <li>
                         <i className="fa-solid fa-circle-check" />
-                        We use the latest diagnostic equipment
+                        nous utilisons les équipements de diagnostic les plus avancés du secteur.
                       </li>
                     </ul>
                   </div>
@@ -161,7 +158,7 @@ export default function ServiceDetails({ serviceItem }) {
                   </div>
                   <div className="news-widget-categories">
                     <ul>
-                      {services2.map((elm, i) => (
+                      {services3test.map((elm, i) => (
                         <li key={i}>
                           <Link href={`/service-details/${elm.id}`}>
                             {elm.title}

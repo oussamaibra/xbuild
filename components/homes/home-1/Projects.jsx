@@ -3,6 +3,8 @@ import Link from "next/link";
 import AnimatedText from "@/components/common/AnimatedText";
 import { projects2 } from "@/data/projects";
 import { useRef } from "react";
+import Image from "next/image";
+
 export default function Projects() {
   const parentRefs = useRef([]);
   const handleProjectHover = (index) => {
@@ -20,11 +22,11 @@ export default function Projects() {
         <div className="section-title text-center">
           <h6 className="wow fadeInUp">
             <i className="fa-regular fa-arrow-left-long" />
-            our complete projects
+            Découvrez notre expertise
             <i className="fa-regular fa-arrow-right-long" />
           </h6>
           <h2 className="splt-txt wow">
-            <AnimatedText text="Our Latest Projects" />
+            <AnimatedText text="Nos domaines de compétence" />
           </h2>
         </div>
       </div>
@@ -39,6 +41,14 @@ export default function Projects() {
                 className={`box wow fadeInUp ${elm.bgClass} `}
                 data-wow-delay={elm.delay}
               >
+                 <div className="project-image">
+                  <Image 
+                    src={elm.imgSrc} 
+                    alt={elm.title}
+                    fill
+                    style={{objectFit: 'cover'}}
+                  />
+                </div>
                 <div className="project-content">
                   <h3>
                     <Link href={`/project-details/${elm.id}`}>{elm.title}</Link>

@@ -1,68 +1,69 @@
 export const serviceItems = [
   {
     id: 1,
-    imgSrc: "/assets/img/service/01.jpg",
+    imgSrc: "/assets/img/service/high-angle-architectural-objects-desk.jpg",
     iconSrc: "/assets/img/icon/01.svg",
     number: "01",
-    title: "Building Construction",
-    description: "Consectetur Phasellus a odio vel sapien pharetra placerat.",
+    title: "Etude préalable (G1)",
+    description: " Etude géotechnique préalable...",
   },
   {
     id: 2,
-    imgSrc: "/assets/img/service/02.jpg",
+    imgSrc: "/assets/img/service/architecture-concept-with-building-plan.jpg",
     iconSrc: "/assets/img/icon/02.svg",
     number: "02",
-    title: "Architecture Design",
-    description: "Consectetur Phasellus a odio vel sapien pharetra placerat.",
+    title: "Etude de conception (G2)",
+    description: " Etude géotechnique de conception...",
+    description_detail:"Fournir une approche des quantités/délais/coûts d’exécution de ces ouvrages géotechniques Établir les documents nécessaires à la consultation des entreprises pour l’exécution des ouvrages géotechniques. Assister le client pour la sélection des entreprises et l’analyse technique des offres.",
   },
   {
     id: 3,
-    imgSrc: "/assets/img/service/03.jpg",
+    imgSrc: "/assets/img/service/building-construction-worker-site.jpg",
     iconSrc: "/assets/img/icon/03.svg",
     number: "03",
-    title: "Building Renovation",
-    description: "Consectetur Phasellus a odio vel sapien pharetra placerat.",
+    title: "Etude G2 AVP-G2 PRO",
+    description: " Fournir une approche des quantités/délais/coûts...",
   },
   {
     id: 4,
-    imgSrc: "/assets/img/service/04.jpg",
+    imgSrc: "/assets/img/service/_tude_de_sol_2.jpg",
     iconSrc: "/assets/img/icon/04.svg",
     number: "04",
-    title: "Quality Materials",
-    description: "Consectetur Phasellus a odio vel sapien pharetra placerat.",
+    title: "Diagnostic géotechnique (G5)",
+    description: "G5 : Diagnostic géotechnique...",
   },
-  {
-    id: 5,
-    imgSrc: "/assets/img/service/01.jpg",
-    iconSrc: "/assets/img/icon/01.svg",
-    number: "01",
-    title: "Building Construction",
-    description: "Consectetur Phasellus a odio vel sapien pharetra placerat.",
-  },
-  {
-    id: 6,
-    imgSrc: "/assets/img/service/02.jpg",
-    iconSrc: "/assets/img/icon/02.svg",
-    number: "02",
-    title: "Architecture Design",
-    description: "Consectetur Phasellus a odio vel sapien pharetra placerat.",
-  },
-  {
-    id: 7,
-    imgSrc: "/assets/img/service/03.jpg",
-    iconSrc: "/assets/img/icon/03.svg",
-    number: "03",
-    title: "Building Renovation",
-    description: "Consectetur Phasellus a odio vel sapien pharetra placerat.",
-  },
-  {
-    id: 8,
-    imgSrc: "/assets/img/service/04.jpg",
-    iconSrc: "/assets/img/icon/04.svg",
-    number: "04",
-    title: "Quality Materials",
-    description: "Consectetur Phasellus a odio vel sapien pharetra placerat.",
-  },
+  // {
+  //   id: 5,
+  //   imgSrc: "/assets/img/service/01.jpg",
+  //   iconSrc: "/assets/img/icon/01.svg",
+  //   number: "01",
+  //   title: "Building Construction",
+  //   description: "Consectetur Phasellus a odio vel sapien pharetra placerat.",
+  // },
+  // {
+  //   id: 6,
+  //   imgSrc: "/assets/img/service/02.jpg",
+  //   iconSrc: "/assets/img/icon/02.svg",
+  //   number: "02",
+  //   title: "Architecture Design",
+  //   description: "Consectetur Phasellus a odio vel sapien pharetra placerat.",
+  // },
+  // {
+  //   id: 7,
+  //   imgSrc: "/assets/img/service/03.jpg",
+  //   iconSrc: "/assets/img/icon/03.svg",
+  //   number: "03",
+  //   title: "Building Renovation",
+  //   description: "Consectetur Phasellus a odio vel sapien pharetra placerat.",
+  // },
+  // {
+  //   id: 8,
+  //   imgSrc: "/assets/img/service/04.jpg",
+  //   iconSrc: "/assets/img/icon/04.svg",
+  //   number: "04",
+  //   title: "Quality Materials",
+  //   description: "Consectetur Phasellus a odio vel sapien pharetra placerat.",
+  // },
 ];
 
 export const serviceItems2 = [
@@ -225,6 +226,28 @@ export const services2 = [
   {
     id: 27,
     title: "Heating and Water",
+  },
+];
+export const services3test = [
+  {
+    id: 23,
+    title: "Travaux de forage",
+  },
+  {
+    id: 24,
+    title: "Réhabilitation de puits",
+  },
+  {
+    id: 25,
+    title: "Fourniture de matériel de forage",
+  },
+  {
+    id: 26,
+    title: "Gestion de projet de forage",
+  },
+  {
+    id: 27,
+    title: "Systèmes de pompage et d’adduction d’eau",
   },
 ];
 

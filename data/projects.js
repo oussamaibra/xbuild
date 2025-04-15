@@ -121,33 +121,59 @@ export const projects = [
 export const projects2 = [
   {
     id: 16,
-    title: "Building Renovation",
+    title: "Forages géothermiques sur nappe",
     bgClass: "",
     delay: "",
+    imgSrc:"/assets/img/project/5671_fs46.jpg"
   },
   {
     id: 17,
-    title: "Building Renovation",
+    title: "Forages eau potable",
     bgClass: "bg-1",
     delay: ".2s",
+        imgSrc:"/assets/img/project/forage_eau_debit_artesien.jpg"
   },
+  // {
+  //   id: 18,
+  //   title: "Forages d'irrigations",
+  //   bgClass: "bg-2 active",
+  //   delay: ".4s",
+  //       imgSrc:"/assets/img/project/460e3ad62595.jpg"
+  // },
+  // {
+  //   id: 19,
+  //   title: "Forages eaux thermales et minérales",
+  //   bgClass: "bg-3",
+  //   delay: ".6s",
+  //       imgSrc:"/assets/img/project/puits-de-forage.jpg"
+  // },
+  // {
+  //   id: 20,
+  //   title: "Forages subhorizontaux",
+  //   bgClass: "bg-4",
+  //   delay: ".8s",
+  //       imgSrc:"/assets/img/project/societe-forage-puit-eau-france-002-780x520.jpg"
+  // },
   {
-    id: 18,
-    title: "Building Renovation",
-    bgClass: "bg-2 active",
-    delay: ".4s",
-  },
-  {
-    id: 19,
-    title: "Building Renovation",
-    bgClass: "bg-3",
-    delay: ".6s",
-  },
-  {
-    id: 20,
-    title: "Building Renovation",
-    bgClass: "bg-4",
+    id: 21,
+    title: "Sondages",
+    bgClass: "bg-1",
     delay: ".8s",
+        imgSrc:"/assets/img/project/460e3ad62595.jpg"
+  },
+  {
+    id: 22,
+    title: "Géotechnique",
+    bgClass: "bg-2 active",
+    delay: ".8s",
+        imgSrc:"/assets/img/project/puits-de-forage.jpg"
+  },
+  {
+    id: 23,
+    title: "Diagnostics",
+    bgClass: "bg-3",
+    delay: ".8s",
+        imgSrc:"/assets/img/project/forage_geothermie_raccordement_collecteur_tests.jpg"
   },
 ];
 

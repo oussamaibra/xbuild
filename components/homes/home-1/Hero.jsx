@@ -78,13 +78,12 @@ export default function Hero() {
                   />
                 </div>
                 <h1 className="splt-txt wow">
-                  <AnimatedText text="Create the" />
-                  <br /> <AnimatedText text="building you" />
-                  <br /> <AnimatedText text="want here" />
+                  <AnimatedText text="Votre professionnel" />
+                  <br /> <AnimatedText text="de la géothechnique" />
+                  <br /> <AnimatedText text="vous accompage" />
                 </h1>
                 <p className="wow fadeInUp" data-wow-delay=".5s">
-                  Proactively pontificate client-centered relationships visavis
-                  process centric leadership skills. Credibly.
+                dans vos projets en amont.
                 </p>
                 <div className="hero-button">
                   <Link
@@ -92,7 +91,7 @@ export default function Hero() {
                     className="theme-btn bg-white wow fadeInUp"
                     data-wow-delay=".3s"
                   >
-                    Explore More
+                    En savoir plus
                     <i className="fa-regular fa-arrow-right"></i>
                   </Link>
                   <span
@@ -105,7 +104,7 @@ export default function Hero() {
                     >
                       <i className="fa-solid fa-play"></i>
                     </a>
-                    <span className="ms-3 d-line">play reel</span>
+                    <span className="ms-3 d-line">Voir la vidéo</span>
                   </span>
                 </div>
               </div>

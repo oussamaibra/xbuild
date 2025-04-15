@@ -13,7 +13,7 @@ export default function About() {
       >
         <div className="about-shape-1 float-bob-x">
           <Image
-            src="/assets/img/about/about-shape-1.png"
+            src="/assets/img/about/pngegg (1).png"
             width={114}
             height={419}
             alt="img"
@@ -21,7 +21,7 @@ export default function About() {
         </div>
         <div className="about-shape-2 float-bob-x">
           <Image
-            src="/assets/img/about/about-shape-2.png"
+            src="/assets/img/about/pngegg (4).png"
             width={318}
             height={408}
             alt="img"
@@ -33,7 +33,7 @@ export default function About() {
               <div className="col-lg-6">
                 <div className="about-image">
                   <Image
-                    src="/assets/img/hero/aae91f73-cfcf-409f-884b-d4a01e6fdd8f.jpg"
+                    src="/assets/img/hero/d393f5c6-32f2-445f-b3cd-f3de01364a38.jpg"
                     alt="img"
                     width={485}
                     height={592}
@@ -61,7 +61,7 @@ export default function About() {
                   </div>
                   <div className="about-line-shape">
                     <Image
-                      src="/assets/img/about/about-shape-3.png"
+                      src="/assets/img/about/logo-1.png"
                       width={30}
                       height={545}
                       alt="img"
@@ -73,33 +73,33 @@ export default function About() {
                 <div className="about-content">
                   <div className="section-title">
                     <h6 className="wow fadeInUp">
-                      <i className="fa-regular fa-arrow-left-long"></i>1976
-                      Building conpany
+                      <i className="fa-regular fa-arrow-left-long"></i>QUI SOMMES-NOUS ?
                       <i className="fa-regular fa-arrow-right-long"></i>
                     </h6>
                     <h2 className="splt-txt wow">
-                      <AnimatedText text="Create The Building You Want Here" />
+                      <AnimatedText text="Votre expert géotechnicien en ILE DE France" />
                     </h2>
                   </div>
                   <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".4s">
-                    It is a long established fact that a reader will be
-                    distracted the readable content of a page when looking at
-                    layout the point of using lorem the is Ipsum less normal
-                    distribution of letters.
+                  ABC PRO FORAGE assure les études de sol géotechniques (missions géotechniques 
+                    G1, G2 et G5), les sondages et les forages dans toute l’île de France
                   </p>
                   <ul className="list-items wow fadeInUp" data-wow-delay=".2s">
                     <li>
                       <i className="fa-solid fa-circle-check"></i>
-                      Proactively pontificate client-centered relationships
+                      Nous répondons au besoin des particuliers et des professionnels intervenant dans le 
+domaine de la maison individuelle (agents immobiliers, promoteurs immobilier, artisans 
+maçons) et dans le cadre de la rénovation urbaine. 
                     </li>
                     <li>
                       <i className="fa-solid fa-circle-check"></i>
-                      Is there a waiting list for desired work to be started
+                      Notre rôle est de vous permettre de construire en toute sécurité en analysant la 
+composition du terrain et en vous prévenant des risques y étant liés
                     </li>
-                    <li>
+                    {/* <li>
                       <i className="fa-solid fa-circle-check"></i>
                       Release of Letraset sheets containing Lorem Ipsum
-                    </li>
+                    </li> */}
                   </ul>
                   <div className="about-author">
                     <div
@@ -113,8 +113,8 @@ export default function About() {
                         alt="author-img"
                       />
                       <div className="content">
-                        <p>Xbuild, CEO</p>
-                        <h4>Brooklyn Simmons</h4>
+                        <p>ABC PRO FORAGE, CEO</p>
+                        <h4>M.Mathlouthi</h4>
                       </div>
                     </div>
                     <Image

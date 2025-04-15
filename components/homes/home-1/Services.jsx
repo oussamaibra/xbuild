@@ -25,7 +25,7 @@ export default function Services() {
     },
     breakpoints: {
       1399: {
-        slidesPerView: 4,
+        slidesPerView: 3,
       },
       1199: {
         slidesPerView: 3,
@@ -53,13 +53,13 @@ export default function Services() {
       <div className="container">
         <div className="section-title text-center">
           <h6 className="wow fadeInUp">
-            <i className="fa-regular fa-arrow-left-long"></i>WHAT WE OFFER
+            <i className="fa-regular fa-arrow-left-long"></i>Nos services
             <i className="fa-regular fa-arrow-right-long"></i>
           </h6>
           <h2 className="text-white splt-txt wow">
-            <AnimatedText text="Create The Building " />
+            <AnimatedText text="Confiez-nous vos études  " />
             <br />
-            <AnimatedText text="You Want Here" />
+            <AnimatedText text="géotechniques" />
           </h2>
         </div>
         <div className="array-button">
@@ -72,7 +72,7 @@ export default function Services() {
         </div>
       </div>
       <div className="container-fluid">
-        <Swiper {...swiperOptions} className="swiper service-slider">
+        <Swiper {...swiperOptions} className="swiper service-slider" >
           {serviceItems.map((item, index) => (
             <SwiperSlide className="swiper-slide" key={index}>
               <div className="service-box-items">
@@ -91,7 +91,7 @@ export default function Services() {
                   <h2 className="number">{item.number}</h2>
                   <h3>
                     <Link href={`/service-details/${item.id}`}>
-                      {item.title}
+                      {(item.title,item.imgSrc,item.description)}
                     </Link>
                   </h3>
                   <p>{item.description}</p>

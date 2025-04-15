@@ -50,7 +50,7 @@ export default function page({ params }) {
             </div>
             <div className="breadcrumb-image">
               <Image
-                src="/assets/img/breadcrumb-image.png"
+                src={serviceItem.imgSrc}
                 width={540}
                 height={450}
                 alt="img"
