@@ -53,12 +53,12 @@ export default function Testimonials() {
                 <div className="section-title">
                   <h6 className="wow fadeInUp">
                     <i className="fa-regular fa-arrow-left-long" />
-                    testimonials
+                    témoignages 
                     <i className="fa-regular fa-arrow-right-long" />
                   </h6>
                   <h2 className="text-white splt-txt wow">
-                    <AnimatedText text="What Client’s Say" /> <br />
-                    <AnimatedText text="About Us!" />
+                    <AnimatedText text="Ils nous ont " /> <br />
+                    <AnimatedText text="fait confiance !" />
                   </h2>
                 </div>
                 <Swiper
@@ -89,7 +89,7 @@ export default function Testimonials() {
                   <div className="client-image-area">
                     <div className="client-img">
                       <Image
-                        src="/assets/img/testimonial/client-1.png"
+                        src="/assets/img/testimonial/haired-woman.jpg"
                         alt="img"
                         width={81}
                         height={89}
@@ -97,7 +97,15 @@ export default function Testimonials() {
                     </div>
                     <div className="client-img">
                       <Image
-                        src="/assets/img/testimonial/client-2.png"
+                        src="/assets/img/testimonial/portrait-white-man-isolated.jpg"
+                        alt="img"
+                        width={81}
+                        height={89}
+                      />
+                    </div>
+                    <div className="client-img">
+                      <Image
+                        src="/assets/img/testimonial/portrait-modern-woman.jpg"
                         alt="img"
                         width={81}
                         height={89}

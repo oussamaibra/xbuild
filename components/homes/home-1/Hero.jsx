@@ -77,8 +77,9 @@ export default function Hero() {
                     alt="img"
                   />
                 </div>
-                <h1 className="splt-txt wow">
-                  <AnimatedText text="Votre professionnel" />
+                <h1 className="splt-txt wow" style={{ fontSize: '3 rem' }}>
+                  <AnimatedText text="Votre " /><br />
+                  <AnimatedText text=" professionnel" />
                   <br /> <AnimatedText text="de la géothechnique" />
                   <br /> <AnimatedText text="vous accompage" />
                 </h1>

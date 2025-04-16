@@ -124,14 +124,14 @@ export const projects2 = [
     title: "Forages géothermiques sur nappe",
     bgClass: "",
     delay: "",
-    imgSrc:"/assets/img/project/5671_fs46.jpg"
+    imgSrc: "/assets/img/project/87d43e3e-347e-4bf6-b571-9148e459995d.JPG",
   },
   {
     id: 17,
     title: "Forages eau potable",
     bgClass: "bg-1",
     delay: ".2s",
-        imgSrc:"/assets/img/project/forage_eau_debit_artesien.jpg"
+    imgSrc: "/assets/img/project/forage_eau_debit_artesien.jpg",
   },
   // {
   //   id: 18,
@@ -159,21 +159,21 @@ export const projects2 = [
     title: "Sondages",
     bgClass: "bg-1",
     delay: ".8s",
-        imgSrc:"/assets/img/project/460e3ad62595.jpg"
+    imgSrc: "/assets/img/project/65d07e66-e208-4fd8-8424-53403397594c.JPG",
   },
   {
     id: 22,
     title: "Géotechnique",
     bgClass: "bg-2 active",
     delay: ".8s",
-        imgSrc:"/assets/img/project/puits-de-forage.jpg"
+    imgSrc: "/assets/img/project/d393f5c6-32f2-445f-b3cd-f3de01364a38.JPG",
   },
   {
     id: 23,
     title: "Diagnostics",
     bgClass: "bg-3",
     delay: ".8s",
-        imgSrc:"/assets/img/project/forage_geothermie_raccordement_collecteur_tests.jpg"
+    imgSrc:"/assets/img/project/forage_geothermie_raccordement_collecteur_test.jpg",
   },
 ];
 

@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function AnimatedText({
-  text = "Grow your business with a new website.",
+  text = "ABC PRO FORAGE.",
 }) {
   return (
     <>

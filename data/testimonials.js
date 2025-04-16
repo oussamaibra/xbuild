@@ -1,7 +1,8 @@
 export const testimonials = [
-  "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock !",
-  "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock !",
-  "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock !",
+  "Grâce à ABC Pro Forage, notre ferme dispose aujourd’hui d’un puits parfaitement fonctionnel. L’équipe a été rapide, professionnelle et surtout très à l’écoute de nos besoins. Je recommande sans hésiter !",
+  "Le chantier de forage a été mené dans les délais, avec un excellent suivi technique. ABC Pro Forage a su coordonner toutes les étapes, de l’étude du sol jusqu’à l’installation du système de pompage !",
+  "Nous avions besoin d’un forage profond pour une unité industrielle, et ABC Pro Forage a parfaitement répondu à nos exigences techniques et réglementaires. Une équipe sérieuse et expérimentée !",
+  "Mon ancien puits ne fonctionnait plus correctement. L’intervention d’ABC Pro Forage a permis une remise en service rapide, avec un débit optimisé. Très satisfait du résultat !",
 ];
 
 export const testimonials2 = [

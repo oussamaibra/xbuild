@@ -21,7 +21,7 @@ export default function Cta() {
           </h2>
           <div className="cta-img wow fadeInUp" data-wow-delay=".4s">
             <Image
-              src="/assets/img/cta-img.png"
+              src="/assets/img/about/pngegg (4).png"
               width={223}
               height={256}
               alt="img"

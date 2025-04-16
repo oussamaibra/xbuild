@@ -14,13 +14,13 @@ export default function Team() {
         <div className="section-title text-center">
           <h6 className="wow fadeInUp">
             <i className="fa-regular fa-arrow-left-long" />
-            our team
+            Notre équipe
             <i className="fa-regular fa-arrow-right-long" />
           </h6>
           <h2 className="splt-txt wow">
-            <AnimatedText text="Our Expert Team" />
+            <AnimatedText text="Des experts au service" />
             <br />
-            <AnimatedText text="Members" />
+            <AnimatedText text="de vos projets" />
           </h2>
         </div>
         <div className="row">
