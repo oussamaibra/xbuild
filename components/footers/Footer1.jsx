@@ -23,9 +23,9 @@ export default function Footer1() {
             data-wow-delay=".2s"
           >
             <Image
-              src="/assets/img/logo/black-logo.svg"
-              width={149}
-              height={64}
+              src="/assets/img/logo/black-logo.png"
+              width={90}
+              height={60}
               alt="img"
             />
           </Link>

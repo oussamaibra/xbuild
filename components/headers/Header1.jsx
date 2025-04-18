@@ -13,7 +13,7 @@ export default function Header1() {
             <div className="logo-image">
               <Link href={`/`}>
                 <Image
-                  src="/assets/img/logo/black-logo.svg"
+                  src="/assets/img/logo/black-logo.png"
                   width={149}
                   height={64}
                   alt="img"
@@ -65,7 +65,7 @@ export default function Header1() {
                     <div className="logo">
                       <Link href={`/`} className="header-logo">
                         <Image
-                          src="/assets/img/logo/black-logo.svg"
+                          src="/assets/img/logo/black-logo.png"
                           alt="logo-img"
                           width={149}
                           height={64}

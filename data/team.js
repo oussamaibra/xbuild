@@ -1,7 +1,7 @@
 export const teamMembers = [
   {
     id: 1,
-    image: "/assets/img/team/01.jpg",
+    image: "/assets/img/testimonial/haired-woman.jpg",
     name: "Shikhon Islam",
     role: "Sr. engineer",
     delay: "0s",
@@ -26,7 +26,7 @@ export const teamMembers = [
   },
   {
     id: 2,
-    image: "/assets/img/team/02.jpg",
+    image: "/assets/img/testimonial/haired-woman.jpg",
     name: "Kawser Ahmed",
     role: "Sr. engineer",
     delay: ".2s",
@@ -51,7 +51,7 @@ export const teamMembers = [
   },
   {
     id: 3,
-    image: "/assets/img/team/03.jpg",
+    image: "/assets/img/testimonial/haired-woman.jpg",
     name: "Marvin McKinney",
     role: "Sr. engineer",
     delay: ".4s",
@@ -76,7 +76,7 @@ export const teamMembers = [
   },
   {
     id: 4,
-    image: "/assets/img/team/04.jpg",
+    image: "/assets/img/testimonial/haired-woman.jpg",
     name: "Sohel Islam",
     role: "Sr. engineer",
     delay: ".6s",

@@ -15,7 +15,7 @@ export default function Offcanvas({ children }) {
                 <div className="offcanvas__logo">
                   <Link href="/">
                     <Image
-                      src="/assets/img/logo/black-logo.svg"
+                      src="/assets/img/logo/black-logo.png"
                       width={149}
                       height={64}
                       alt="logo-img"

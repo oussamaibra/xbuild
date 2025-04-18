@@ -77,15 +77,15 @@ export default function Hero() {
                     alt="img"
                   />
                 </div>
-                <h1 className="splt-txt wow" style={{ fontSize: '3 rem' }}>
-                  <AnimatedText text="Votre " /><br />
-                  <AnimatedText text=" professionnel" />
-                  <br /> <AnimatedText text="de la géothechnique" />
-                  <br /> <AnimatedText text="vous accompage" />
+                <h1 className="splt-txt wow">
+                  <AnimatedText text="Votre terrain mérite un expert" />
+                  {/* <AnimatedText text=" " />
+                  <br /> <AnimatedText text="" />
+                  <br /> <AnimatedText text="vous accompage" /> */}
                 </h1>
-                <p className="wow fadeInUp" data-wow-delay=".5s">
+                {/* <p className="wow fadeInUp" data-wow-delay=".5s">
                 dans vos projets en amont.
-                </p>
+                </p> */}
                 <div className="hero-button">
                   <Link
                     href={`/about`}
@@ -115,7 +115,7 @@ export default function Hero() {
                 <Swiper {...swiperOptions} className="swiper hero-slider">
                   {images.map((src, index) => (
                     <SwiperSlide className="swiper-slide" key={index}>
-                      <div className="hero-image">
+                      <div >
                         <Image
                           width={475}
                           height={635}
@@ -125,7 +125,7 @@ export default function Hero() {
                       </div>
                     </SwiperSlide>
                   ))}
-
+{/* 
                   <div className="array-button">
                     <button className="array-prevs">
                       <Image
@@ -145,7 +145,7 @@ export default function Hero() {
                         alt="img"
                       />
                     </button>
-                  </div>
+                  </div> */}
                 </Swiper>
               </div>
             </div>

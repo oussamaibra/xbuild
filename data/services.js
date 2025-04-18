@@ -26,7 +26,7 @@ export const serviceItems = [
   },
   {
     id: 4,
-    imgSrc: "/assets/img/service/_tude_de_sol_2.jpg",
+    imgSrc: "/assets/img/service/42833.jpg",
     iconSrc: "/assets/img/icon/04.svg",
     number: "04",
     title: "Diagnostic géotechnique (G5)",

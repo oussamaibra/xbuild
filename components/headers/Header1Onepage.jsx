@@ -13,9 +13,9 @@ export default function Header1Onepage() {
             <div className="logo-image">
               <Link href={`/`}>
                 <Image
-                  src="/assets/img/logo/black-logo.svg"
-                  width={149}
-                  height={64}
+                  src="/assets/img/logo/black-logo.png"
+                  width={90}
+                  height={60}
                   alt="img"
                 />
               </Link>
@@ -65,10 +65,10 @@ export default function Header1Onepage() {
                     <div className="logo">
                       <Link href={`/`} className="header-logo">
                         <Image
-                          src="/assets/img/logo/black-logo.svg"
+                          src="/assets/img/logo/black-logo.png"
                           alt="logo-img"
-                          width={149}
-                          height={64}
+                          width={90}
+                          height={60}
                         />
                       </Link>
                     </div>

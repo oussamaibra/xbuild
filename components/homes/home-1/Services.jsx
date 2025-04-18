@@ -91,7 +91,7 @@ export default function Services() {
                   <h2 className="number">{item.number}</h2>
                   <h3>
                     <Link href={`/service-details/${item.id}`}>
-                      {(item.title,item.imgSrc,item.description)}
+                      {item.title}
                     </Link>
                   </h3>
                   <p>{item.description}</p>
