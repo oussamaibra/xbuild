@@ -15,7 +15,7 @@ export default function NavOnepage() {
     <>
       <li className="has-dropdown active menu-thumb mobile-none">
         <Link href={`/`}>
-          Home
+        Accueil
           {/* <i className="fa-regular fa-plus"></i> */}
         </Link>
         {/* <ul className="submenu has-homemenu">

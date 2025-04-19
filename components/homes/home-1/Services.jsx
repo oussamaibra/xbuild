@@ -48,7 +48,7 @@ export default function Services() {
     <section
       id="services"
       className="service-section fix section-padding bg-cover  scrollSpySection"
-      style={{ backgroundImage: "url(/assets/img/service/service-bg.jpg)" }}
+      style={{ backgroundImage: "url(/assets/img/service/service-bg.png)" }}
     >
       <div className="container">
         <div className="section-title text-center">

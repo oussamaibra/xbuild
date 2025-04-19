@@ -86,10 +86,10 @@ export const menuData = [
 ];
 
 export const onepageLinks = [
-  { href: "#about", text: "About Us" },
+  { href: "#about", text: "À propos" },
   { href: "#services", text: "Services" },
-  { href: "#projects", text: "Projects" },
-  { href: "#team", text: "Team" },
+  { href: "#projects", text: "Projets" },
+  { href: "#team", text: "Équipe" },
   { href: "#blog", text: "Blog" },
   { href: "#contact", text: "Contact" },
 ];
