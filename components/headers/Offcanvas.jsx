@@ -12,11 +12,11 @@ export default function Offcanvas({ children }) {
           <div className="offcanvas__wrapper">
             <div className="offcanvas__content">
               <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
-                <div className="offcanvas__logo">
+                <div className="">
                   <Link href="/">
                     <Image
                       src="/assets/img/logo/black-logo.png"
-                      width={149}
+                      width={100}
                       height={64}
                       alt="logo-img"
                     />
@@ -32,9 +32,7 @@ export default function Offcanvas({ children }) {
                 </div>
               </div>
               <p className="text d-none d-xl-block">
-                Nullam dignissim, ante scelerisque the is euismod fermentum odio
-                sem semper the is erat, a feugiat leo urna eget eros. Duis
-                Aenean a imperdiet risus.
+              ABC Pro Forage vous accompagne dans vos projets de forage
               </p>
               <div className="mobile-menu fix mb-3 mean-container">
                 <div className="mean-bar">
@@ -64,7 +62,8 @@ export default function Offcanvas({ children }) {
                     </div>
                     <div className="offcanvas__contact-text">
                       <a target="_blank" href="#">
-                        Main Street, Melbourne, Australia
+                        9 bis, chemin de la Grange du breuil <br /> 
+                        91160 Ballainvilliers
                       </a>
                     </div>
                   </li>
@@ -73,9 +72,9 @@ export default function Offcanvas({ children }) {
                       <i className="fal fa-envelope" />
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="mailto:info@example.com">
-                        <span className="mailto:info@example.com">
-                          info@example.com
+                      <a href="mailto:pro-forages@wanadoo.fr">
+                        <span className="mailto:pro-forages@wanadoo.fr">
+                        pro-forages@wanadoo.fr
                         </span>
                       </a>
                     </div>
@@ -86,8 +85,16 @@ export default function Offcanvas({ children }) {
                     </div>
                     <div className="offcanvas__contact-text">
                       <a target="_blank" href="#">
-                        Mod-friday, 09am -05pm
+                        Lundi-Vendredi, 09:00 h - 17:00 h 
                       </a>
+                    </div>
+                  </li>
+                  <li className="d-flex align-items-center">
+                    <div className="offcanvas__contact-icon mr-15">
+                      <i className="fa fa-briefcase" />
+                    </div>
+                    <div className="offcanvas__contact-text">
+                      <a href="tel:01 64 54 89 53">Bureau :01 64 54 89 53</a>
                     </div>
                   </li>
                   <li className="d-flex align-items-center">
@@ -95,14 +102,22 @@ export default function Offcanvas({ children }) {
                       <i className="far fa-phone" />
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="tel:+11002345909">+11002345909</a>
+                      <a href="tel:06 86 37 38 08">M.Mathlouthi : 06 86 37 38 08</a>
+                    </div>
+                  </li>
+                  <li className="d-flex align-items-center">
+                    <div className="offcanvas__contact-icon mr-15">
+                      <i className="far fa-phone" />
+                    </div>
+                    <div className="offcanvas__contact-text">
+                      <a href="tel:06 76 26 71 71">M.Mathlouthi : 06 76 26 71 71</a>
                     </div>
                   </li>
                 </ul>
                 <div className="header-button mt-4">
                   <a href="contact.html" className="theme-btn text-center">
                     <span>
-                      Get A Quote
+                      Nous Contactez
                       <i className="fa-solid fa-arrow-right-long" />
                     </span>
                   </a>
