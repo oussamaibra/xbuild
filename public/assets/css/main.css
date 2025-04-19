@@ -3518,22 +3518,22 @@ span {
 }
 @media (max-width: 1399px) {
   .hero-1 .hero-content {
-    padding: 70px 40px;
+    padding: 70px 25px;
   }
 }
 @media (max-width: 991px) {
   .hero-1 .hero-content {
-    padding: 70px 50px;
+    padding: 70px 25px;
   }
 }
 @media (max-width: 767px) {
   .hero-1 .hero-content {
-    padding: 70px 40px;
+    padding: 70px 25px;
   }
 }
 @media (max-width: 575px) {
   .hero-1 .hero-content {
-    padding: 60px 30px;
+    padding: 60px 25px;
   }
 }
 .hero-1 .hero-content .vector-shape {

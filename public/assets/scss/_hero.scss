@@ -22,25 +22,25 @@
 
     .hero-content {
         background-color: $theme-color;
-        padding: 105px 70px;
+        padding: 105px 40px;
         clip-path: polygon(0% 15%, 0 11%, 11% 0, 85% 0%, 100% 0, 100% 15%, 100% 88%, 91% 100%, 94% 100%, 15% 100%, 0 100%, 0% 85%);
         max-width: 870px;
         position: relative;
 
         @include breakpoint (max-xxl){
-           padding: 70px 40px;
+           padding: 70px 30px;
         }
 
         @include breakpoint (max-lg){
-            padding: 70px 50px;
+            padding: 70px 30px;
         }
 
         @include breakpoint (max-md){
-            padding: 70px 40px;
+            padding: 70px 30px;
         }
 
         @include breakpoint (max-sm){
-            padding: 60px 30px;
+            padding: 60px 20px;
         }
 
         .vector-shape {
@@ -140,7 +140,7 @@
     .hero-image-items {
         margin-right: -48%;
         position: relative;
-
+       
         @include breakpoint (max-lg){
             margin-right: 0;
         }

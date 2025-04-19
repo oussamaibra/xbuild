@@ -51,12 +51,20 @@ export default function Projects() {
                 </div>
                 <div className="project-content">
                   <h3>
+                    <Link href={`/pr/${elm.id}`}>{elm.title}</Link>
+                  </h3>
+                  <Link href={`/pr/${elm.id}`} className="icon">
+                    <i className="fa-solid fa-arrow-right" />
+                  </Link>
+                </div>
+                {/* <div className="project-content">
+                  <h3>
                     <Link href={`/project-details/${elm.id}`}>{elm.title}</Link>
                   </h3>
                   <Link href={`/project-details/${elm.id}`} className="icon">
                     <i className="fa-solid fa-arrow-right" />
                   </Link>
-                </div>
+                </div> */}
               </div>
             ))}
           </div>

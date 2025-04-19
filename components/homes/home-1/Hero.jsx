@@ -9,7 +9,7 @@ import { useState } from "react";
 export default function Hero() {
   const [isOpen, setOpen] = useState(false);
   const swiperOptions = {
-    spaceBetween: 30,
+    spaceBetween: 100,
     speed: 2000,
     loop: true,
     autoplay: {
@@ -112,10 +112,11 @@ export default function Hero() {
             </div>
             <div className="col-lg-5">
               <div className="hero-image-items">
-                <Swiper {...swiperOptions} className="swiper hero-slider">
+                <Swiper {...swiperOptions} className="swiper hero-slider pe-3">
                   {images.map((src, index) => (
                     <SwiperSlide className="swiper-slide" key={index}>
-                      <div >
+                      <div className="me-4">
+                        
                         <Image
                           width={475}
                           height={635}

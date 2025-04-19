@@ -11,7 +11,7 @@ export const metadata = {
 export default function page() {
   return (
     <>
-      <Header2 />
+      {/* <Header2 /> */}
       <div
         className="breadcrumb-wrapper bg-cover"
         style={{ backgroundImage: 'url("/assets/img/breadcrumb-bg.jpg")' }}
@@ -47,7 +47,7 @@ export default function page() {
             </div>
             <div className="breadcrumb-image">
               <Image
-                src="/assets/img/breadcrumb-image.png"
+                src="/assets/img/testimonial/2104.i301.004.S.m004.c13.404 error isometric composition.jpg"
                 width={540}
                 height={450}
                 alt="img"
@@ -72,7 +72,7 @@ export default function page() {
               <div className="error-items">
                 <div className="error-image wow fadeInUp" data-wow-delay=".3s">
                   <Image
-                    src="/assets/img/404.png"
+                    src="/assets/img/testimonial/2104.i301.004.S.m004.c13.404 error isometric composition.jpg"
                     width={896}
                     height={539}
                     alt="img"
@@ -83,17 +83,17 @@ export default function page() {
                     {" "}
                     <AnimatedText text="Oops!" />
                   </b>{" "}
-                  <AnimatedText text="Page Not Found" />
+                  <AnimatedText text="Page non trouvée" />
                 </h2>
                 <p className="wow fadeInUp" data-wow-delay=".7s">
-                  The page you are looking for does not exist
+                La page que vous recherchez n'existe pas
                 </p>
                 <Link
                   href={`/`}
                   className="theme-btn wow fadeInUp"
                   data-wow-delay=".8s"
                 >
-                  Back to Home
+                  Revenir à l’accueil
                   <i className="fa-regular fa-arrow-right" />
                 </Link>
               </div>

@@ -34,8 +34,9 @@ export default function Footer1() {
               <i className="fa-sharp fa-solid fa-location-dot" />
             </div>
             <div className="content">
-              <p>Office location</p>
-              <h3>4648 Rocky, New York</h3>
+              <p>Localisation</p>
+              <h3>9 bis, chemin de la Grange du breuil
+              91160 Ballainvilliers</h3>
             </div>
           </div>
           <div className="contact-info-items wow fadeInUp" data-wow-delay=".6s">
@@ -43,9 +44,9 @@ export default function Footer1() {
               <i className="fa-solid fa-envelope" />
             </div>
             <div className="content">
-              <p>send email</p>
+              <p>Email</p>
               <h3>
-                <a href="mailto:example@gmail.com">example@gmail.com</a>
+                <a href="mailto:example@gmail.com">pro-forages@wanadoo.fr</a>
               </h3>
             </div>
           </div>
@@ -54,9 +55,9 @@ export default function Footer1() {
               <i className="fa-solid fa-phone-volume" />
             </div>
             <div className="content">
-              <p>call emergency</p>
+              <p>Numéro de téléphone</p>
               <h3>
-                <a href="tel:+88012365499">+88 0123 654 99</a>
+                <a href="tel:06 86 37 38 08">06 86 37 38 08</a>
               </h3>
             </div>
           </div>
@@ -69,13 +70,11 @@ export default function Footer1() {
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
-                  <h5>About Company</h5>
+                  <h5>A Propos</h5>
                 </div>
                 <div className="footer-content">
                   <p>
-                    Nullam interdum libero vitae pretium aliquam <br />
-                    donec nibh purus laoreet in ullamcorper vel <br />
-                    malesuada sit amet enim.
+                  ABC Pro Forage vous accompagne dans vos projets de forage.
                   </p>
                   <div className="social-icon d-flex align-items-center">
                     {socialLinks.map((elm, i) => (
@@ -93,7 +92,7 @@ export default function Footer1() {
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
-                  <h5>Quick Link</h5>
+                  <h5>Lien rappide</h5>
                 </div>
                 <ul className="list-area">
                   {footerLinks.map((link, index) => (
@@ -113,17 +112,17 @@ export default function Footer1() {
             >
               <div className="single-footer-widget">
                 <div className="widget-head">
-                  <h5>Our Services</h5>
+                  <h5>Nos Services</h5>
                 </div>
                 <ul className="list-area">
-                  {services2.map((elm, i) => (
+                  {/* {services2.map((elm, i) => (
                     <li key={i}>
                       <Link href={`/service-details/${elm.id}`}>
                         <i className="fa-solid fa-chevrons-right" />
                         {elm.title}
                       </Link>
                     </li>
-                  ))}
+                  ))} */}
                 </ul>
               </div>
             </div>
@@ -205,7 +204,7 @@ export default function Footer1() {
         </div>
         <div className="footer-bottom">
           <p>
-            © All Copyright 2024 by <Link href={`/`}>Xbuild</Link>
+            © All Copyright 2025 by <Link href={`/`}>ABC PRO FORAGE</Link>
           </p>
         </div>
       </div>

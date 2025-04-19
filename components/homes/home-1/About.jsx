@@ -162,7 +162,7 @@ export default function About() {
                     </ul>
                     <div className="about-author">
                       <Link
-                        href={`/about`}
+                        href={`/a`}
                         className="theme-btn wow fadeInUp"
                         data-wow-delay=".2s"
                       >

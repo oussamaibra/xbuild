@@ -1,5 +1,7 @@
 import Brands from "@/components/common/Brands";
 import Footer1 from "@/components/footers/Footer1";
+import Header1 from "@/components/headers/Header1";
+import Header1Onepage from "@/components/headers/Header1Onepage";
 import Header2 from "@/components/headers/Header2";
 import ServiceDetails from "@/components/service/ServiceDetails";
 import { allServices } from "@/data/services";
@@ -14,7 +16,7 @@ export default function page({ params }) {
     allServices.filter((elm) => elm.id == params.id)[0] || allServices[0];
   return (
     <>
-      <Header2 />
+      <Header1Onepage />
       <div
         className="breadcrumb-wrapper bg-cover"
         style={{ backgroundImage: 'url("/assets/img/breadcrumb-bg.jpg")' }}

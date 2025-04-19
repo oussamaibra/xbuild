@@ -214,7 +214,7 @@ export default function ServiceDetails({ serviceItem }) {
                   >
                     <p>Do You Need Help? We're Here to Support You</p>
                     <Image
-                      src="/assets/img/service/logo.png"
+                      src="/assets/img/service"
                       width={149}
                       height={64}
                       alt="img"
