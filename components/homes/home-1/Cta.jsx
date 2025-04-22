@@ -36,11 +36,11 @@ export default function Cta() {
             </div>
           </div>
           <Link
-            href={`/contact`}
+            href={`/conta`}
             className="theme-btn bg-white wow fadeInUp"
             data-wow-delay=".6s"
           >
-            contact us
+            Nous Contactez
             <i className="fa-regular fa-arrow-right" />
           </Link>
         </div>

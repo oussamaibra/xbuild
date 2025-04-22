@@ -54,7 +54,7 @@ export default function Header1() {
                   </div>
                 </div>
                 <div className="header-button">
-                  <Link href={`/contact`} className="theme-btn">
+                  <Link href={`/cont`} className="theme-btn">
                     GAT A QUOTE <i className="fa-regular fa-arrow-right"></i>
                   </Link>
                 </div>

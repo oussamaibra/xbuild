@@ -88,7 +88,7 @@ export default function Hero() {
                 </p> */}
                 <div className="hero-button">
                   <Link
-                    href={`/about`}
+                    href={`/ab`}
                     className="theme-btn bg-white wow fadeInUp"
                     data-wow-delay=".3s"
                   >
